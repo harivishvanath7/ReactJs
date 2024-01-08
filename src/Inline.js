@@ -1,0 +1,16 @@
+import React from 'react'
+
+const heading = {               // Inline CSS object
+    fontSize: '72px',
+    color: 'blue'
+}
+
+function Inline() {             // Assigning the style object to h1 
+  return (
+    <div>                       
+      <h1 style={heading}>Inline</h1>
+    </div>
+  )
+}
+
+export default Inline
