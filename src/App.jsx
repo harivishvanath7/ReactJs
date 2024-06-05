@@ -1,9 +1,9 @@
-import Counter from "./Counter.jsx";
+import OnChangeComp from "./OnChangeComp.jsx";
 
 function App() {
   return(
     <div>
-        <Counter />
+        <OnChangeComp />
     </div>
   );
 }
